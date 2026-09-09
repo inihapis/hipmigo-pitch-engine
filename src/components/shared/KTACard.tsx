@@ -10,8 +10,11 @@ export const KTACard: React.FC = () => {
   const [showQRModal, setShowQRModal] = useState(false);
   const [copied, setCopied] = useState(false);
 
+  // Samarkan nomor KTA: hanya 4 digit terakhir yang tampil (anti bocor data PII)
+  const maskedKTA = `•••• •••• •••• ${userProfile.ktaNumber.replace(/\D/g, '').slice(-4)}`;
+
   const copyKTA = () => {
-    navigator.clipboard.writeText(userProfile.ktaNumber);
+    navigator.clipboard.writeText(maskedKTA);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -97,7 +100,7 @@ export const KTACard: React.FC = () => {
             <span className="text-[9px] uppercase tracking-widest text-slate-400 block font-semibold">Nomor Anggota EKTA</span>
             <div className="flex items-center gap-1.5 mt-0.5">
               <span className="font-mono text-xs text-amber-200 tracking-wider font-semibold">
-                {userProfile.ktaNumber}
+                {maskedKTA}
               </span>
               <button 
                 onClick={copyKTA} 
@@ -130,7 +133,7 @@ export const KTACard: React.FC = () => {
             
             <div className="my-4 p-4 bg-slate-50 rounded-2xl inline-block border border-slate-200 shadow-inner">
               <Image
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=EKTA-${userProfile.ktaNumber}`}
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=EKTA-${maskedKTA}`}
                 alt="EKTA QR Code"
                 width={180}
                 height={180}
@@ -139,7 +142,7 @@ export const KTACard: React.FC = () => {
               />
             </div>
 
-            <p className="font-mono text-xs font-semibold text-slate-700">{userProfile.ktaNumber}</p>
+            <p className="font-mono text-xs font-semibold text-slate-700">{maskedKTA}</p>
             
             <button
               onClick={() => setShowQRModal(false)}
