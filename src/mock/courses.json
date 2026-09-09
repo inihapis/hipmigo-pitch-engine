@@ -1,0 +1,68 @@
+[
+  {
+    "id": "PK-101",
+    "level": "PK 1",
+    "title": "Dasar Kewirausahaan & Legaltas Usaha",
+    "description": "Modul wajib keanggotaan HIPMI untuk validasi model bisnis, legalitas PT/CV, dan manajemen keuangan awal.",
+    "duration": "4 Jam (6 Modul Video)",
+    "modulesCount": 6,
+    "completedModules": 5,
+    "badge": "Terverifikasi Wirausaha Muda",
+    "fee": 150000,
+    "isFreeForPremium": true,
+    "quiz": {
+      "question": "Dokumen manakah yang menjadi identitas utama badan usaha perseroan terbatas (PT) berdasarkan UU Cipta Kerja?",
+      "options": [
+        "NIB (Nomor Induk Berusaha) & Akta Pendirian Kemenkumham",
+        "KTP Pemilik Usaha",
+        "Surat Keterangan Desa",
+        "Buku Rekening Pribadi"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": "PK-201",
+    "level": "PK 2",
+    "title": "Manajemen Operasional & B2B Supply Chain",
+    "description": "Pengelolaan rantai pasok ekosistem, standarisasi mutu produk, dan integrasi vendor antar-anggota HIPMI.",
+    "duration": "8 Jam (10 Modul Video)",
+    "modulesCount": 10,
+    "completedModules": 2,
+    "badge": "Supply Chain Specialist",
+    "fee": 250000,
+    "isFreeForPremium": true,
+    "quiz": {
+      "question": "Strategi apakah yang paling efektif untuk menjaga kepastian pasokan dalam ekosistem B2B?",
+      "options": [
+        "Kontrak Pasokan Jangka Panjang & Digital Service Level Agreement (SLA)",
+        "Membeli barang saat stok habis saja",
+        "Menggunakan sistem pembayaran tunai harian",
+        "Membuat toko fisik tambahan"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": "PK-301",
+    "level": "PK 3",
+    "title": "Scale-Up Strategy & Investment Readiness",
+    "description": "Persiapan fundraising, pitch deck masterclass, audit keuangan eksternal, dan B2B matching dengan Venture Capital.",
+    "duration": "12 Jam (12 Modul Video)",
+    "modulesCount": 12,
+    "completedModules": 0,
+    "badge": "Investment Ready Executive",
+    "fee": 500000,
+    "isFreeForPremium": false,
+    "quiz": {
+      "question": "Dokumen utama apa yang paling diperhatikan oleh calon investor/VC saat menguji kelayakan traksi startup/UMKM?",
+      "options": [
+        "Financial Projection Model & Cap Table",
+        "Foto Brosur Promosi",
+        "Daftar Followers Instagram",
+        "Surat Izin Domisili"
+      ],
+      "correctAnswer": 0
+    }
+  }
+]

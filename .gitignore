@@ -1,0 +1,27 @@
+# Next.js
+.next/
+out/
+build/
+node_modules/
+*.log
+.DS_Store
+
+# Vercel
+.vercel
+
+# Env
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Data mentah & dokumen besar (tetap lokal, tidak ikut deploy)
+Data HIPMIGO/
+HIPMIGO_Documentation_Pack/
+*.pdf
+*.csv
+
+# Dokumentasi internal (tetap lokal)
+walkthrough.md

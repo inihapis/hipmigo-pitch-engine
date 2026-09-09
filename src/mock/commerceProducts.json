@@ -1,0 +1,83 @@
+{
+  "merchandise": [
+    {
+      "id": "MERCH-01",
+      "name": "Jaket Varsity Official HIPMI Premium 2026",
+      "category": "Apparel",
+      "price": 650000,
+      "pointsReward": 500,
+      "rating": 4.9,
+      "sold": 1240,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+      "description": "Jaket Varsity eksklusif dengan bordir benang emas logo HIPMI, wool premium blend dan kulit sintetis impor."
+    },
+    {
+      "id": "MERCH-02",
+      "name": "Kemeja Batik HIPMI Executive Official",
+      "category": "Apparel",
+      "price": 450000,
+      "pointsReward": 350,
+      "rating": 4.8,
+      "sold": 890,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+      "description": "Kemeja Batik Sutra Tulis bermotif Garuda HIPMI. Potongan slim fit modern untuk acara resmi nasional."
+    },
+    {
+      "id": "MERCH-03",
+      "name": "Pin Brass Lapel Badge HIPMI Gold Plated 24K",
+      "category": "Attribute",
+      "price": 175000,
+      "pointsReward": 150,
+      "rating": 5.0,
+      "sold": 3410,
+      "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80",
+      "description": "Pin dada resmi berbahan kuningan sepuh emas 24K dengan sistem pengunci magnetik kuat."
+    }
+  ],
+  "partnerVouchers": [
+    {
+      "id": "VOUCH-01",
+      "partnerName": "Fore Coffee",
+      "title": "Diskon 20% All Coffee Beverages",
+      "category": "F&B",
+      "discount": "20%",
+      "validUntil": "31 Des 2026",
+      "terms": "Berlaku di seluruh gerai Fore Coffee Indonesia untuk member HIPMI.",
+      "code": "FORE-HIPMI20",
+      "logo": "☕"
+    },
+    {
+      "id": "VOUCH-02",
+      "partnerName": "Telkomsel Enterprise",
+      "title": "Potongan 30% Paket Data Korporat 100GB",
+      "category": "Telekomunikasi",
+      "discount": "30%",
+      "validUntil": "31 Des 2026",
+      "terms": "Khusus pendaftaran nomor pascabayar badan usaha member HIPMI.",
+      "code": "TELKOMSEL-HIPMI30",
+      "logo": "📱"
+    },
+    {
+      "id": "VOUCH-03",
+      "partnerName": "Midtrans Payment Gateway",
+      "title": "Gratis Biaya Transaksi MDR 0% (3 Bulan)",
+      "category": "Financial SaaS",
+      "discount": "0% MDR",
+      "validUntil": "30 Nov 2026",
+      "terms": "Khusus merchant terverifikasi HIPMIGO Business Advantage.",
+      "code": "MIDTRANS-HIPMI0",
+      "logo": "💳"
+    },
+    {
+      "id": "VOUCH-04",
+      "partnerName": "Bank Mandiri Corporate",
+      "title": "Kredit Usaha Rakyat Fast Track up to Rp 500 Juta",
+      "category": "Perbankan",
+      "discount": "Bunga 6%",
+      "validUntil": "31 Des 2026",
+      "terms": "Persetujuan kilat 3 hari kerja dengan rekomendasi HIPMIGO BI.",
+      "code": "MANDIRI-KUR-HMG",
+      "logo": "🏦"
+    }
+  ]
+}

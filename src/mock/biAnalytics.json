@@ -1,0 +1,41 @@
+{
+  "totalMembers": 60302,
+  "activeDigitalMembers": 33862,
+  "verifiedBusinesses": 18420,
+  "totalTransactionVolume": "Rp 4.2 Triliun",
+  "topSectors": [
+    { "name": "Perdagangan & E-Commerce", "percentage": 24.8, "count": 14955, "growth": "+14.2%" },
+    { "name": "Jasa & Layanan Profesional", "percentage": 17.3, "count": 10432, "growth": "+11.8%" },
+    { "name": "Kuliner & F&B", "percentage": 15.1, "count": 9105, "growth": "+18.5%" },
+    { "name": "Konstruksi & Properti", "percentage": 13.0, "count": 7839, "growth": "+8.4%" },
+    { "name": "Teknologi & Digital", "percentage": 11.3, "count": 6814, "growth": "+26.7%" },
+    { "name": "Pertanian & Agrobisnis", "percentage": 9.5, "count": 5728, "growth": "+6.1%" },
+    { "name": "Manufaktur & Produksi", "percentage": 9.0, "count": 5429, "growth": "+5.3%" }
+  ],
+  "growthTrends": [
+    { "year": "2023 Q1", "members": 24000, "verified": 5100, "transactions": 1.2 },
+    { "year": "2023 Q3", "members": 32000, "verified": 8200, "transactions": 1.8 },
+    { "year": "2024 Q1", "members": 41500, "verified": 11400, "transactions": 2.5 },
+    { "year": "2024 Q3", "members": 49000, "verified": 14200, "transactions": 3.1 },
+    { "year": "2025 Q1", "members": 54200, "verified": 16500, "transactions": 3.6 },
+    { "year": "2025 Q3", "members": 58000, "verified": 17600, "transactions": 3.9 },
+    { "year": "2026 Q1", "members": 60302, "verified": 18420, "transactions": 4.2 }
+  ],
+  "provinces": [
+    { "code": "JKT", "name": "DKI Jakarta", "bpcCount": 5, "members": 12450, "intensity": "high" },
+    { "code": "JBR", "name": "Jawa Barat", "bpcCount": 27, "members": 14820, "intensity": "high" },
+    { "code": "JTG", "name": "Jawa Tengah", "bpcCount": 35, "members": 8940, "intensity": "high" },
+    { "code": "JTM", "name": "Jawa Timur", "bpcCount": 38, "members": 9230, "intensity": "high" },
+    { "code": "SUMUT", "name": "Sumatera Utara", "bpcCount": 33, "members": 4120, "intensity": "medium" },
+    { "code": "BALI", "name": "Bali", "bpcCount": 9, "members": 3150, "intensity": "medium" },
+    { "code": "SULSEL", "name": "Sulawesi Selatan", "bpcCount": 24, "members": 2890, "intensity": "medium" },
+    { "code": "KALTIM", "name": "Kalimantan Timur", "bpcCount": 10, "members": 2180, "intensity": "medium" },
+    { "code": "PPU", "name": "Ibu Kota Nusantara (IKN)", "bpcCount": 2, "members": 1520, "intensity": "high" },
+    { "code": "PAPUA", "name": "Papua & DOB", "bpcCount": 12, "members": 1002, "intensity": "medium" }
+  ],
+  "creditScoreRiskDistribution": {
+    "lowRisk": "62.4%",
+    "mediumRisk": "29.1%",
+    "highRisk": "8.5%"
+  }
+}
